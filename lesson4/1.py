@@ -3,4 +3,8 @@
 # Вывести на экран сообщение об этом, а также остаток (если он есть)
 # и частное (в любом случае).
 
-# add code here
+x = int(input('number '))
+y = int(input('number '))
+print(x/y)
+if x / y:
+    print("Congratulatiun")
